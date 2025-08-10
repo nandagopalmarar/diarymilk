@@ -1,5 +1,3 @@
-**script.js**
-```javascript
 const outputDiv = document.getElementById('output');
 const printBtn = document.getElementById('changeBtn');
 
@@ -9,4 +7,4 @@ printBtn.addEventListener('click', () => {
   console.log(fixedText);
   alert('Printed to console: "' + fixedText + '"');
 });
-```
+
