@@ -5,7 +5,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('PASTE_PINTEREST_IMAGE_LINK_HERE') no-repeat center center/cover;
+  background: url('https://pin.it/7qZ1ME0cw') no-repeat center center/cover;
 }
 .card {
   background: rgba(255, 255, 255, 0.9);
@@ -49,3 +49,4 @@ button {
 button:hover {
   background: #d97706;
 }
+
