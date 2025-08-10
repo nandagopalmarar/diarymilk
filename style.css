@@ -1,0 +1,53 @@
+```css
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('PASTE_PINTEREST_IMAGE_LINK_HERE') no-repeat center center/cover;
+}
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 36px 48px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: pop 0.5s ease-in-out;
+}
+@keyframes pop {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+h1 {
+  margin: 0 0 12px;
+  font-size: 28px;
+  color: #6b21a8;
+}
+p {
+  margin: 0 0 12px;
+  color: #8b5cf6;
+}
+.big {
+  font-weight: 700;
+  font-size: 22px;
+  color: #dc2626;
+  margin-top: 18px;
+  min-height: 24px;
+}
+button {
+  margin-top: 18px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: 0;
+  background: #f59e0b;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background: #d97706;
+}
+```
